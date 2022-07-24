@@ -15,4 +15,8 @@ function BookList() {
 }
 
 const root = createRoot(document.getElementById("root"));
-root.render(<BookList />);
+root.render(
+  <React.StrictMode>
+    <BookList />
+  </React.StrictMode>
+);
